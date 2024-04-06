@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Android Development Training</string>
+    <string name="add_1">ADD +1</string>
+    <string name="default_value">0</string>
 </resources>
