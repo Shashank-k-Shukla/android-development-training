@@ -3,8 +3,19 @@ package com.example.androiddevelopmenttraining.di.dragger
 import android.util.Log
 import javax.inject.Inject
 
-class RemoteRepo @Inject constructor(){
-    fun showData(){
-        Log.e("ABC","remote repository")
+interface RemoteRepo{
+    fun showData()
+}
+
+class FirebaseStorage @Inject constructor() : RemoteRepo{
+    override fun showData() {
+        Log.e("ABC","firebase storage")
+    }
+}
+
+class RetrofitApi : RemoteRepo{
+    override fun showData() {
+        Log.e("ABC","retrofit api")
+
     }
 }
