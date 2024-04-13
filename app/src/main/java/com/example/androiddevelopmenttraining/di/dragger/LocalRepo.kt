@@ -7,7 +7,6 @@ interface LocalRepo{
     fun showData()
 }
 
-
 class SQLiteDB @Inject constructor() : LocalRepo{
     override fun showData() {
         Log.e("ABC","saved in SQLite database")
