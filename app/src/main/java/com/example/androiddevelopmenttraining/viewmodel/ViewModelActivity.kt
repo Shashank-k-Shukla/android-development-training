@@ -14,7 +14,7 @@ import com.example.androiddevelopmenttraining.databinding.ActivityMainBinding
 class ViewModelActivity : AppCompatActivity() {
 
     private lateinit var activityViewBinding : ActivityMainBinding
-    private lateinit var viewModel: ViewModel
+    private lateinit var viewModel: MyViewModel
     private var num = 0
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -33,9 +33,9 @@ class ViewModelActivity : AppCompatActivity() {
             Log.e("ABC", "clicked")
 //            num++
 //            activityViewBinding.countText.text = num.toString()
-            (viewModel as MyViewModel).increaseNumber()
-            activityViewBinding.countText.text = (viewModel as MyViewModel).getNumber().toString()
+            viewModel.increaseNumber()
+            activityViewBinding.countText.text = viewModel.getNumber().toString()
         }
-        activityViewBinding.countText.text = (viewModel as MyViewModel).getNumber().toString()
+        activityViewBinding.countText.text = viewModel.getNumber().toString()
     }
 }
