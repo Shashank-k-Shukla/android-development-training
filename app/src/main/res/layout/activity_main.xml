@@ -35,7 +35,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/count_text"
             android:layout_marginTop="20dp"
-            android:text="@string/add_1"
+            android:text="@string/increase_number"
             >
 
         </Button>
