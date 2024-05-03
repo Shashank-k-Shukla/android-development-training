@@ -1,15 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Android Development Training</string>
-    <string name="add_1">ADD +1</string>
-    <string name="default_value">0</string>
-    <string name="increase_number">Increase number</string>
-    <string name="registration_form">Registration Form</string>
-    <string name="enter_your_name">Enter your name</string>
-    <string name="enter_your_email_address">Enter your email address</string>
     <string name="enter_your_mobile_no">Enter your mobile no.</string>
     <string name="add_details_in_room_database">Add Details in Room Database</string>
     <string name="add_details_in_firebase_store">Add Details in Firebase Store</string>
-    <string name="click_here_to_reset">-> reset</string>
+    <string name="click_here_to_reset">click here to reset</string>
     <string name="or">OR</string>
     <string name="add_details">Add Details</string>
     <string name="clear_all">Clear All</string>
